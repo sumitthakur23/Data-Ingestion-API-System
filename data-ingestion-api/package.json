@@ -1,0 +1,20 @@
+{
+  "name": "data-ingestion-api",
+  "version": "1.0.0",
+  "description": "A simple API system for data ingestion and status tracking.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6"
+  },
+  "author": "",
+  "license": "ISC"
+}
