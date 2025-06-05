@@ -49,6 +49,9 @@ data-ingestion-api
    ```
    The application will be running on `http://localhost:5000`.
 
+   > **Note:** Use `npm run dev` for development (auto-reloads on file changes).  
+   > For production, use `npm start`.
+
 4. **Run Tests**
    ```bash
    npm test
