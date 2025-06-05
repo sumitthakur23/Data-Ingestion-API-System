@@ -34,7 +34,7 @@ data-ingestion-api
 
 1. **Clone the Repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/sumitthakur23/Data-Ingestion-API-System.git
    cd data-ingestion-api
    ```
 
@@ -45,7 +45,7 @@ data-ingestion-api
 
 3. **Run the Application**
    ```bash
-   npm start
+   npm run dev
    ```
    The application will be running on `http://localhost:5000`.
 

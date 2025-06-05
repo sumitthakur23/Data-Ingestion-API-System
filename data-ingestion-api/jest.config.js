@@ -4,7 +4,7 @@ module.exports = {
   collectCoverage: true,
   coverageDirectory: 'coverage',
   testPathIgnorePatterns: ['/node_modules/', '/dist/'],
-  setupFilesAfterEnv: ['<rootDir>/tests/setup.js'],
+  // setupFilesAfterEnv: ['<rootDir>/tests/setup.js'],
   globals: {
     'ts-jest': {
       tsconfig: 'tsconfig.json',
